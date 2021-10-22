@@ -1,3 +1,16 @@
+/*
+img{
+	  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}*/
 
 *{
     margin: 0;
@@ -128,4 +141,37 @@
     content: "";
     display: table;
     clear: both;
+}
+
+.image1 img{
+    padding: 3px;
+    width: 50%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: content;
+    object-fit: cover;
+    float: left;
+}
+
+.image2 img{
+    padding: 3px;
+    width: 50%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: content;
+    object-fit: cover;
+    float: left;
+}
+.part1{
+    padding:14px;
+    display: inline-block;
+    width: 600px;
+
+}
+
+.part2{
+    padding:14px;
+    display: inline-block;
+    width: 600px;
+
 }
