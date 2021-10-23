@@ -1,10 +1,10 @@
 version: "3.2"
 services:
-  docs:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    ports:
+    apache:
+      build:
+       context: .
+       dockerfile: Dockerfile
+      ports:
       - "8080:80"
-    volumes:
-      - ./:/app
+      volumes:
+      - ./Public_Html/:/usr/local/apache2/htdocs/
